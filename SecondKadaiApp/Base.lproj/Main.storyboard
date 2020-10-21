@@ -33,6 +33,7 @@
                                 <rect key="frame" x="176" y="384" width="62" height="30"/>
                                 <state key="normal" title="入力完了"/>
                                 <connections>
+                                    <action selector="mybutton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FnL-3n-ifs"/>
                                     <segue destination="tpQ-iO-W3W" kind="show" id="EBX-RP-PD9"/>
                                 </connections>
                             </button>
@@ -48,6 +49,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mytextfield" destination="dLF-0M-BRq" id="5QG-Oe-WrQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -85,6 +89,9 @@
                         <viewLayoutGuide key="safeArea" id="PCO-RZ-O9a"/>
                     </view>
                     <navigationItem key="navigationItem" id="ip3-oV-aYg"/>
+                    <connections>
+                        <outlet property="mylabel" destination="Ovz-YK-K07" id="rHS-NL-0sd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZdD-y4-2wT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="HRY-Rc-TFj" userLabel="Exit" sceneMemberID="exit"/>

@@ -9,11 +9,17 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    @IBOutlet weak var mylabel: UILabel!
+    
+    var str:String? = "name"
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        mylabel.text = ("こんにちは、\(str!)さん")
     }
     
 
